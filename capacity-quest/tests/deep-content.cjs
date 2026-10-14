@@ -8,4 +8,3 @@ for(const [i,c] of D.cases.entries()){assert.equal(c.value,expected[i]);assert.e
 }
 for(const file of ['lab-content.js','lab-engine.js','lab-adapter.js'])assert(!/\bfetch\(|XMLHttpRequest|WebSocket|https?:\/\//.test(fs.readFileSync(require.resolve('../'+file),'utf8')));
 console.log('PASS 224 cases / 56 archetypes / four contexts / seven domains; all library acceptance paths; 14 arithmetic answers; 28 bounded/hold branches; wrong choices, diagnostic deadline, no early capacity or authority bypass; zero remote resources');
-

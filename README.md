@@ -37,5 +37,7 @@ npm run test:browser
 
 Set `CQ_BROWSER` to use another installed Chromium/Edge executable. Tests drive actual keyboard/mouse controls; no teleport or unlock hooks exist. Unit tests cover all scenario registries, state gates, arithmetic and both advanced hold/release branches. Browser regression covers all original campaign stages and hands-on missions plus representative library cases; it does not claim human timing or full accessibility certification.
 
+After deployment, `npm run test:hosted` checks the public HTTPS page, all seven pictures and a complete hands-on mission. Pushing the repository's default branch runs validation and republishes the game automatically.
+
 ## Scope and provenance
 The original campaign's 72 mechanisms, the library's 56 archetypes × four contexts, and the 14 additional problem sets are different counting units. A full hold is a legitimate learning outcome and never claims accepted new service capacity. Read [limitations](capacity-quest/KNOWN_LIMITATIONS.md), [library integration](capacity-quest/LIBRARY_INTEGRATION.md) and [licenses/attribution](capacity-quest/LICENSES.md).

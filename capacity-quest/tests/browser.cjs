@@ -19,4 +19,3 @@ const path=require('node:path');const fs=require('node:fs');const assert=require
  await page.setViewportSize({width:1920,height:1080});await page.screenshot({path:path.resolve(__dirname,'../menu.png')});
  assert.deepEqual(errors,[]);assert.deepEqual(remote,[]);console.log('PASS zero uncaught browser exceptions, zero HTTP(S) requests, offline file mode');await browser.close();
 })().catch(e=>{console.error(e);process.exit(1)});
-

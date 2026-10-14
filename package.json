@@ -6,7 +6,8 @@
   "scripts": {
     "test": "node capacity-quest/tests/content.cjs && node capacity-quest/tests/engine.cjs && node capacity-quest/tests/deep-content.cjs && node capacity-quest/tests/visual-workbench.cjs && node tools/test-build.cjs",
     "build": "node tools/build-site.cjs",
-    "test:browser": "node capacity-quest/tests/visual-browser.cjs && node capacity-quest/tests/campaign.cjs && node capacity-quest/tests/browser.cjs"
+    "test:browser": "node capacity-quest/tests/visual-browser.cjs && node capacity-quest/tests/campaign.cjs && node capacity-quest/tests/browser.cjs",
+    "test:hosted": "node capacity-quest/tests/hosted-browser.cjs"
   },
   "devDependencies": {
     "playwright": "1.62.1"
