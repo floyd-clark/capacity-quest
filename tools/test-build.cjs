@@ -1,0 +1,6 @@
+const assert=require('node:assert/strict'),fs=require('node:fs'),path=require('node:path');const {source,target,runtime,pictures}=require('./build-site.cjs');
+function files(dir,prefix=''){return fs.readdirSync(dir,{withFileTypes:true}).flatMap(e=>e.isDirectory()?files(path.join(dir,e.name),prefix+e.name+'/'):[prefix+e.name]);}
+assert.deepEqual(files(target).sort(),[...runtime,...pictures,'.nojekyll'].sort());
+for(const name of [...runtime,...pictures]){assert.deepEqual(fs.readFileSync(path.join(source,name)),fs.readFileSync(path.join(target,name)));const text=fs.readFileSync(path.join(target,name),'utf8');assert(!/C:[\\/]Users[\\/]|BEGIN (?:RSA |OPENSSH )?PRIVATE KEY|gh[pousr]_[A-Za-z0-9]{30,}/.test(text),name+' private content');}
+const html=fs.readFileSync(path.join(target,'index.html'),'utf8');for(const match of html.matchAll(/(?:src|href)="([^"]+)"/g)){assert(!/^https?:/.test(match[1]));assert(fs.existsSync(path.join(target,match[1])),'missing '+match[1]);}
+console.log('PASS exact public artifact allowlist, local dependencies, byte-identical runtime, no machine paths or credential markers');

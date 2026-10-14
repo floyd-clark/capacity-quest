@@ -1,0 +1,18 @@
+# Known limitations
+- This is a tested offline study build, not a fully polished production release. Level traversal is intentionally forgiving and shares a station/ground topology; elevated platform patterns, hazards and six environment treatments vary. No ladders or pipe travel are implemented.
+- Encounters use four choices per phase with immediate safe recovery. The 72 mechanisms/evidence/tests/closures are individually authored, while wrong-choice templates and ownership prompts are shared. There is no free-form technical simulator, randomized replay or semantic interview grading.
+- Bosses comprise three traversed scenario phases and one integrated acceptance gate. They do not have bespoke combat/movement attack patterns.
+- Synthetic result packets are deterministic teaching adaptations, not validated site telemetry or exhaustive engineering procedures. Chapter mapping is conceptual, not a claim the book contains these fictional incidents.
+- Sprint 10–15m, Showcase 3m, stage 2–5m and campaign 75–100m are unvalidated human study-duration targets. Automated traversals are much faster; reading/explaining should set your pace.
+- Headless Edge file-mode/offline testing is available; physical network disconnection, default-browser BAT launch by a human, private-mode storage across browsers and actual Windows display-scale 125%/150% are not tested. Browser offline context blocks network independently of the physical NIC.
+- Keyboard menus and large-text/high-contrast options are implemented; full screen-reader/nonvisual platform navigation and formal accessibility certification are not implemented. Full browser gameplay on mobile is not a target.
+- No optional EXE, soundtrack, adaptive review, save import or total campaign reset checkpoint persistence across reload. Stage completion and local study records persist; mid-stage state restarts.
+- Rubric measures constrained action-path selections, not real engineering competence. Hints are transparent and do not incur an accessibility penalty.
+
+- The imported 224 cases are 56 archetypes in four lifecycle contexts. Their initial choices/rationale are retained; later stages use context-specific adaptations and shared authority prompts. Fourteen additional advanced sets have six decisions and two valid scope branches; they are scripted simulations rather than a free-form engineering optimizer.
+- Advanced calculations, diagnostic-minute costs, spend caps and recovery estimates are explicit teaching assumptions. A simulated close test is not actual qualified engineering evidence. The expected-value set keeps supplier timing uncommitted; probability is not a delivery guarantee.
+- All 224 library entries are validated mechanically, with actual browser completion sampled across all 28 domain/context combinations. All 14 advanced sets are browser-completed; browser completion of every source-bank entry is not claimed.
+
+- The new hands-on mode uses original clickable SVG illustrations and deterministic task validation. The pictures are teaching schematics, not as-built drawings or a live engineering simulator. Probe selections are authored comparisons; simulated tests do not produce real qualification evidence.
+- Each advanced mission uses six interaction types. The original campaign and library retain card-based engineering choices with optional clickable illustrations. Classic lab cards remain an accessibility preference. Full screen-reader and touch-device certification is still not claimed.
+- Recommendation drafts are stored/exported as ungraded player text. No semantic AI grading or external transmission of drafts occurs.

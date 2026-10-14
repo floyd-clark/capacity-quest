@@ -1,0 +1,20 @@
+# Local input/build history and private working reports
+authoring/
+*release verification/
+capacity-quest-release.zip
+.npm-cache/
+node_modules/
+_site/
+capacity-quest/tests/*-results.txt
+capacity-quest/tests/runtime-manifest.json
+capacity-quest/*.png
+capacity-quest/*-memo.html
+capacity-quest/deep-decision-memo.html
+capacity-quest/test-case-study.html
+capacity-quest/SOURCE_MANIFEST.md
+capacity-quest/TEST_RESULTS.md
+capacity-quest/PROGRESS.md
+capacity-quest/REQUIREMENTS_TRACEABILITY.md
+*.log
+.env
+.env.*

@@ -1,0 +1,4 @@
+const fs=require('node:fs'),path=require('node:path');let playwright;
+try{playwright=require('playwright');}catch(e){const home=process.env.USERPROFILE||process.env.HOME;const bundled=home&&path.join(home,'.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/playwright');if(bundled&&fs.existsSync(bundled))playwright=require(bundled);else throw Error('Browser tests require development dependency Playwright. Run npm install and npx playwright install chromium. The game itself needs no packages.');}
+const edge='C:/Program Files (x86)/Microsoft/Edge/Application/msedge.exe';const executablePath=process.env.CQ_BROWSER||(process.platform==='win32'&&fs.existsSync(edge)?edge:undefined);
+module.exports={chromium:playwright.chromium,browserOptions:{headless:true,...(executablePath?{executablePath}:{})}};
