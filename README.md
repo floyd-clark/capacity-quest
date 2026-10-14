@@ -17,6 +17,8 @@ The hosted game runs at the link above after the Pages workflow succeeds. For of
 
 Controls: A/D or arrows move; Space/W/Up jump; Shift runs; E opens a nearby station; Esc pauses; H hints; M toggles sound. Menus and hands-on controls support Tab/Enter, labeled inputs, and movement buttons as alternatives to dragging. Settings can switch hands-on missions back to classic answer cards. Progress stays in this browser's localStorage and is never uploaded.
 
+The layout uses the available browser width and height. Use the **Fullscreen** button or **F** for a larger play/workbench view; **Esc** exits that view first. Embedded browsers that block native fullscreen use an expanded browser view instead. The game camera keeps its original aspect ratio while menus and diagnostic panels use the wider workspace.
+
 ## Development and verification
 Node 24 is used for development checks; it is not needed to play.
 

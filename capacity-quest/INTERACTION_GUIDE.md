@@ -14,3 +14,5 @@ Tab and Enter operate the buttons. Text/number fields and checkboxes use standar
 Campaign and Deep Library stations also contain clickable domain pictures. Those inspections reveal contextual evidence and preserve the original diagnostic gates; inspecting a picture alone never certifies readiness.
 
 All seven SVG pictures are original, locally shipped assets. No image service or network connection is required to use them. For offline play keep the entire assets folder with the JavaScript, CSS and HTML.
+
+The workspace now fills the browser width and available height. Use the header **Fullscreen** button or **F** to expand it; **Esc** returns to normal view without resetting the mission. A larger in-browser view is used if native fullscreen is unavailable. Mission cards adapt into additional columns on wide screens, and task diagrams/controls have more room.
